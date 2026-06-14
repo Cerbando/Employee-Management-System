@@ -21,3 +21,11 @@ class Manager extends Employee {
         return `${super.describe()} They manage a team of ${this.teamSize} employees.`;
     }
 }
+
+// Step 4: Create sample employees and managers
+const employee1 = new Employee("Jackie Robbins", "Marketing");
+const employee2 = new Employee("Tyler Norman", "Finance");
+
+const manager1 = new Manager("Sarah Baker", "IT");
+const manager2 = new Manager("Jason Brown", "Sales");
+
